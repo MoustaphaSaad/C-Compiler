@@ -14,6 +14,14 @@ gcc -m32 cc.c -o cc -ldl
 
 The result is a c compiler with a VM that can run c code.
 
+you can compile and run programs with this command
+
+`./cc hello.c`
+
+or if you want to see the instructions as the VM executes it you can use the `-d`
+
+`./cc -d hello.c` 
+
 Those are examples of the programs it can run.
 
 ```c
