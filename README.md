@@ -11,6 +11,7 @@ Note: The main design of instruction set and VM is based on C4.
 ```
 gcc -m32 cc.c -o cc -ldl
 ```
+Note: this program/compiler needs to be compiled as 32-bit program so if you are running a 64-bit machine you may need to install gcc-multilib
 
 The result is a c compiler with a VM that can run c code.
 
